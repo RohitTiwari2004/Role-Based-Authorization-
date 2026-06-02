@@ -6,7 +6,7 @@ const userSchema = mongoose.Schema(
       required: [true, 'Username is required'],
       unique: [true, 'Username should be unique'],
     },
-    passowrd: {
+    password: {
       type: String,
       required: [true, 'Password is required'],
     },
